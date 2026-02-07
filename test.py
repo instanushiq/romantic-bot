@@ -12,24 +12,17 @@ client = Client(account_sid, auth_token)
 
 # 💌 správy
 messages = [
-    "Láska 💖 dnes si mi prišla na myseľ skôr než káva ☕😌",
-    "Potvorka 😈 ",
-    "Myslím na teba 💭 a trochu sa pri tom usmievam 😊",
-    "Vrr 🐾 dnes máš energiu, ktorú cítim až sem 😌",
-    "Ahoj láska 💖 len malý pozdrav pre teba ✨",
-    "Oficiálne priznávam: myslím na teba častejšie než na jedlo. A to je čo povedať. 🍕😂",
-    "Milujem ťa. A hej… je to tvoja chyba 😄",
-    "Len hlásenie: stále na teba myslím.",
-    "Ak by si bola problém, bola by si môj obľúbený.",
-    "Milujem ťa. Áno, aj teraz.",
-    "Si dôvod, prečo sa usmievam na mobil.",
-    "Milujem ťa. Zvykaj si 😌",
-    "Keby bola láska šport, ty máš zlato 🥇",
-    "Milujem ťa… a nie, nie je to spam.",
-    "Si môj denný dôvod na úsmev.",
-    "Len som ti chcela pripomenúť, že si úžasná.",
-    "Milujem ťa potichu, ale úprimne.",
-    "Si presne ten pocit, ktorý chcem mať častejšie.",
+   "Viem, že teraz pracuješ, ale ja by som si ťa najradšej pritiahla k sebe a nepustila.",
+    "Celý večer myslím na to, ako by som sa k tebe pritúlila, keby si tu bola.",
+    "Nočná ti síce berie spánok, ale mne berieš myšlienky 😌",
+    "Ak cítiš jemné mrazenie, možno to som ja, ako na teba myslím.",
+    "Priznávam sa, keby si teraz prišla, nechala by som všetko tak.",
+    "Ticho noci má jednu chybu, že v ňom nie si so mnou.",
+    "Len si predstav, že ti potichu poviem, ako veľmi sa mi páčiš.",
+    "Niektoré myšlienky sú ideálne práve na noc, a ty si jedna z nich.",
+    "Ak by som ti mohla poslať dotyk namiesto správy, už by si ho cítila.",
+    "Noc a ty, kombinácia, ktorá ma nenechá spať.",
+    "Aj unavená si pre mňa nebezpečne príťažlivá.",
 
 ]
 
@@ -52,5 +45,6 @@ for number in recipients:
     print(f"Správa odoslaná na {number}")
 
 print("✅ Test hotový – program skončil")
+
 
 
