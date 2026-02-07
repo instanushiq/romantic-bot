@@ -1,3 +1,5 @@
+
+import os
 from twilio.rest import Client
 import random
 
@@ -36,3 +38,4 @@ for number in recipients:
     print(f"Správa odoslaná na {number}")
 
 print("✅ Test hotový – program skončil")
+
